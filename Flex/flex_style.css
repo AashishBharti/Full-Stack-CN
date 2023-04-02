@@ -1,31 +1,36 @@
 #container{
-    height: 65vh;
-    width: 65vh;
+    height: auto;
+    width: auto;
     background-color: #8b8bcb99;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
     
 }
 #container div{
-    height: 200px;
+    height: 200px; 
     width: 200px;
     
 
 }
 #div1{
     background-color: red;
-    order: 3;
+    /* order: 3; */
 }
 #div2{
     background-color: aqua;
-    order: -2;
+    /* order: -2; */
 }
 #div3{
     background-color: goldenrod;
-    order: 5;
+    /* order: 5; */
 
 }
 #div4{
     background-color: blueviolet;
-    order: 1;
+    /* order: 1; */
+}
+#div5{
+    background-color: maroon;
+    /* order: 1; */
 }
